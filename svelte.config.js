@@ -8,7 +8,12 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: vercel()
+		adapter: vercel(),
+		vite: () => ({
+            ssr: {
+              external: ['module']
+            }
+          })
 	}
 };
 
