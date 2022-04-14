@@ -17,7 +17,7 @@
 		>
 			<div class="flex lg:flex-row flex-col w-full justify-between items-center">
 				<div
-					class="flex flex-col mt-24 w-1/2 items-center lg:items-start text-center lg:text-start"
+					class="flex flex-col mt-24 w-1/2 items-center lg:items-start text-center lg:text-left lg:text-start"
 				>
 					<h2 class="text-5xl font-grandhotel text-primary">Komang Sudiasa</h2>
 					<h5 class="text-xl font-poppins text-primary mt-2">
@@ -36,7 +36,7 @@
 				<div class="mt-10 lg:mt-0">
 					<ImageWithDecoration image="/cewe.png" imageAlt="Foto Cewe" />
 				</div>
-				<div class="flex flex-col mt-24 w-1/2 items-center lg:items-start text-center lg:text-start">
+				<div class="flex flex-col mt-24 w-1/2 items-center lg:items-start text-center lg:text-left lg:text-start">
 					<h2 class="text-5xl font-grandhotel text-primary">Luh Yulianti</h2>
 					<h5 class="text-xl font-poppins text-primary mt-2">
 						Anak pertama dari pasangan Made Sutawan dan Nyoman Parini berasal dari desa
