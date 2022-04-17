@@ -5,7 +5,7 @@
 	import TextTitle from '../TextTitle.svelte';
 </script>
 
-<div class="w-full h-full flex flex-col items-center relative overflow-hidden pb-24">
+<div class="w-full h-full flex flex-col items-center relative overflow-hidden pb-24" id="location">
 	<div class="absolute top-0 left-0 -mt-32 z-0">
 		<img src="/ornament.png" alt="Ornament Picture" class="scale-mirror" />
 	</div>

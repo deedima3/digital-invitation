@@ -4,9 +4,9 @@
 	import TextTitle from '../TextTitle.svelte';
 </script>
 
-<div class="w-full h-full flex flex-col items-center relative">
+<div class="w-full h-full flex flex-col items-center relative" id="lover">
 	<div class="absolute top-0 left-0 -mt-32 z-0">
-		<img src="/ornament.png" alt="Ornament Picture" class="scale-mirror" />
+		<img src="/ornament.png" alt="Ornament Picture Decoration" class="scale-mirror" />
 	</div>
 	<div class="flex justify-center flex-col items-center static z-20">
 		<TextTitle title="Para Mempelai" />
@@ -24,7 +24,9 @@
 						Anak ketiga dari pasangan Gede Merta dan Made salini berasal dari desa Sambirenteng,
 						Tejakula, Buleleng, Bali
 					</h5>
-					<RoundedButton />
+					<a href="https://www.facebook.com/profile.php?id=100009037068317">
+						<RoundedButton title="Mang Gase"/>
+					</a>
 				</div>
 				<div class="mt-10 lg:mt-0">
 					<ImageWithDecoration />
@@ -42,7 +44,9 @@
 						Anak pertama dari pasangan Made Sutawan dan Nyoman Parini berasal dari desa
 						Sambirenteng, Tejakula, Buleleng, Bali
 					</h5>
-					<RoundedButton />
+					<a href="https://www.facebook.com/luh.yulianti.77">
+						<RoundedButton title="Luh Yulianti"/>
+					</a>
 				</div>
 			</div>
 		</div>
